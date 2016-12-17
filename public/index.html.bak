@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Redux Counter Example</title>
+	 <style type="text/css">
+        body{
+            font-size:15px;
+            font-family: "微软雅黑";
+            color:#666;
+        }
+        .TodoList{
+            width:450px;
+            padding:10px;
+            border-radius:5px;
+            border: 1px solid #ddd;
+            margin:20px auto;
+        }
+        .TodoHeader{
+            width:100%;
+        }
+        .TodoHeader input{
+            width:443px;
+            height:30px;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+            padding-left:5px;
+        }
+        .TodoMain{
+            margin-top:10px;
+            border: 1px solid #ddd;
+            border-bottom: none;
+            margin-bottom: 20px;
+
+        }
+        .TodoMain div{
+            border-bottom: 1px solid #ddd;
+            height:30px;
+            line-height:30px;
+        }
+        .TodoMain div>span{
+            float:right;
+            height:20px;
+            margin-top:5px;
+            line-height: 20px;
+            margin-right:8px;
+            color:#ccc;
+            transition: all 250ms ease;
+            cursor:pointer;
+            font-size:16px;
+            width:20px;
+            text-align: center;
+        }
+        .TodoMain div>span:hover{
+            color:#f44129;
+        }
+        .through{
+            text-decoration: line-through;
+        }
+        .TodoFooter{
+            height:30px;
+            line-height: 30px;
+            margin-bottom:10px;
+            font-size: 14px;
+        }
+        .TodoFooter .allchecked{
+            display: inline-block;
+            margin-right:20px;
+            padding-left:5px;
+            cursor:pointer;
+            transition: all 250ms ease;
+        }
+        .TodoFooter .allchecked:hover{
+            color:#333;
+        }
+        .TodoFooter .text{
+        }
+        .TodoFooter .button{
+            cursor:pointer;
+            float:right;
+            height:25px;
+            border:1px solid #ddd;
+            line-height: 25px;
+            padding-left:3px;
+            padding-right:3px;
+            border-radius:2px;
+            transition: all 250ms ease;
+        }
+        .TodoFooter .button:hover{
+            color:#f44129;
+            border:1px solid transparent;
+        }
+        .TodoFooter .hasDone{
+            color:#54de5d;
+        }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` in this folder.
+      To create a production bundle, use `npm run build`.
+    -->
+  </body>
+</html>
